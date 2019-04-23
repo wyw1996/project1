@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content="关键词">
+    <meta name="description" content="网站描述">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.ye.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/move.js"></script>
+    <script>
+        $(function(){
+            $('.firstMenu').hover(function(){
+                $(this).find('ol').stop().slideDown(600,'elasticOut');
+            },function(){
+                $(this).find('ol').stop().slideUp(600,'elasticIn');
+            })
+        })
+    
+    </script>
+</head>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <div class="container">
+            <a href="./index.html" class="logo fl">卓新科技</a>
+            <div class="nav fr">
+                <ul id="firstMenu">
+                    
+                    <a href="#">
+                        <li class="firstMenu">翡翠学院<span></span>
+                            <ol>
+                                    <a href="#">
+                                        <li>小鸟掌学官网</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>小鸟掌学概述</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>对企业的价值</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>小鸟掌学</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>微课联盟</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>APP下载</li>
+                                    </a>
+                                </ol>
+                        </li>
+                      
+                    </a>
+                   
+                    <a href="#">
+                        <li class="firstMenu">企业文化<span></span>
+                            <ol>
+                                    <a href="#">
+                                        <li>公司理念</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>公司文化</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>公司氛围</li>
+                                    </a>
+                                </ol>
+                            </li>
+                      
+                    </a>
+                    <a href="#">
+                        <li class="firstMenu">人力资源<span></span>
+                            <ol>
+                                    <a href="#">
+                                        <li>人才理念</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>团队介绍</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>招聘信息</li>
+                                    </a>
+                                </ol>
+                        </li>
+                       
+                    </a>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

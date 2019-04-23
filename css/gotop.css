@@ -1,0 +1,31 @@
+.gotop{
+    display: none;
+}
+.rock{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(../images/scroll_top_bg.png) no-repeat;
+    right: 50px;
+    bottom: 200px;
+    cursor: pointer;
+}
+.rock:hover{
+    background-position:0 -50px;
+}
+.callme{
+    position: fixed;
+    width: 87px;
+    height: 87px;
+    background: url(../images/fixed_contactus.png) no-repeat right;
+    right: 31.5px;
+    bottom: 100px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.callme:hover{
+    width: 235px;
+    
+    animation:1s linear su-pudding;
+}
+

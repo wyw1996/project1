@@ -1,0 +1,204 @@
+{
+	"xiaoniaoNews1": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "蜘蛛侠-1",
+			"sysId": 1,
+			"content": "content",
+			"coverImg": "images/zhizhuxia1.jpg"
+		}
+	},
+	"xiaoniaoNews2": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "蜘蛛侠-2",
+			"sysId": 2,
+			"content": "content",
+			"coverImg": "images/zhizhuxia2.jpg"
+		}
+	},
+	"xiaoniaoNews3": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "蜘蛛侠-3",
+			"sysId": 3,
+			"content": "content",
+			"coverImg": "images/zhizhuxia3.jpg"
+		}
+	},
+	"xiaoniaoNews4": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "超凡蜘蛛侠-1",
+			"sysId": 4,
+			"content": "content",
+			"coverImg": "images/zhizhuxia4.jpeg"
+		}
+	},
+	"xiaoniaoNews5": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "超凡蜘蛛侠-2",
+			"sysId": 5,
+			"content": "content",
+			"coverImg": "images/zhizhuxia5.jpg"
+		}
+	},
+	"xiaoniaoNews6": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Our Dynamic",
+			"title": "蜘蛛侠英雄归来",
+			"sysId": 6,
+			"content": "content",
+			"coverImg": "images/zhizhuxia4.jpg"
+		}
+	},
+	"companyIdea": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "金刚狼",
+			"content": "content",
+			"coverImg": "images/jinganglang.jpg"
+		}
+	},
+	"companyCulture": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "万磁王",
+			"content": "content",
+			"coverImg": "images/wanciwang.jpg"
+		}
+	},
+	"companyEnvironment": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "黑凤凰",
+			"content": "content",
+			"coverImg": "images/fenghuang.png"
+		}
+	},
+	"talents": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "神奇先生",
+			"content": "content",
+			"coverImg": "images/shenqixians.jpg"
+		}
+	},
+	"team": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "隐形女",
+			"content": "content",
+			"coverImg": "images/yinxingnv.webp"
+		}
+	},
+	"joinUs": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "霹雳火",
+			"content": "content",
+			"coverImg": "images/pilihuo.webp"
+		}
+	},
+	"joinUss": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "company culture",
+			"title": "石头人",
+			"content": "content",
+			"coverImg": "images/shitouren.webp"
+		}
+	},
+	"telUs": {
+		"success": "成功",
+		"data": {
+			"creatAt": "2016-02-03 15:23:56.0",
+			"creatByFullName": "管理员",
+			"updateAt": "2016-02-19 16:02:42.0",
+			"updateByFullName": "管理员",
+			"typeTitle": "漫威动态",
+			"typeEntitle": "Contact Us",
+			"title": "超人",
+			"content": "content",
+			"coverImg": "images/chaoren.jpg"
+		}
+	}
+}

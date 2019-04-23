@@ -1,0 +1,126 @@
+/*  */
+body{
+    background: #f1f2f6;
+}
+.newcontainer{
+    width: 1100px;
+    margin:0 auto;
+    background: white;
+}
+.box{
+    width: 780px;
+    margin: 0 auto;
+}
+.main .head{
+    color: #311859;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.head>h1{
+    font:54px/1em "楷体";
+    font-weight: bold;
+}
+.head>h5{
+    font:12px/2em "Microsoft";
+    letter-spacing: 9px;
+    font-weight: bold;
+}
+.head>img{
+    
+    margin-top: 10px;
+}
+.main .content{
+    background: url(../images/pen_line.png)no-repeat left 67px,url(../images/pen.png)no-repeat right 17px;
+    background-size:95% auto,auto auto;
+    width: 780px;
+}
+.content>h2{
+    color: #311859;
+    font:28px/2.5em '楷体';
+}
+.content>p{
+    font:18px/2.5em '楷体';
+    color: #6B6A6F;
+}
+.content-one{
+    font: 18px/1.5em "Adobe 黑体 Std";
+    color: #747477;
+    margin-bottom: 100px;
+}
+.content-one>img{
+    width: 100%;
+    height: 240px;
+    margin: 50px 0 20px;
+}
+.content-one>h3{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.content-one>p{
+    text-indent: 2em;
+    margin-top: 10px;
+}
+.btn{
+    margin-top:80px;
+    padding-bottom: 50px;
+    width:73px;
+    margin-left: 350px;
+	height:100px;
+    overflow:hidden;
+    position: relative;
+}
+.heizi{
+    width:220px;
+    margin: 0 auto;
+    
+}
+.btn .logo{
+	width:73px;
+	height:73px;
+	float:left;
+	background:url(../images/article_iflike.png) no-repeat;
+	cursor:pointer;
+}
+.btn .logo:hover{
+    background-position: 0 -73px;
+}
+.btn:hover{
+    animation:1s linear 0s normal none 1 running su-pudding;
+}
+
+.btn .heng{
+	width:135px;
+	height:35px;
+	float:left;
+	margin-left:5px;
+	background:url(../images/article_iflike_nomberbg.png) no-repeat;
+	margin-top:19px;
+	padding-top:8px;
+	color:#fff;
+	text-align:center;
+	padding-left:5px;
+}
+.btn:hover{
+	width:213px;
+	transition: all 0.5s ease 0s;
+}
+.dog{
+    width: 300px;
+    height: 50px;
+    background: pink;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 0 auto;
+    display: none;
+
+}
+
+.bottomm{
+    width: 100%;
+    height: 33px;
+    background:white url(../images/map_bottomimg.png) no-repeat center;
+}

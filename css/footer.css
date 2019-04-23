@@ -1,0 +1,53 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 348px;
+    background: black;
+    position: relative;
+}
+.footer .music{
+    position: absolute;
+    width: 575px;
+    top: 118px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.music>li{
+    float: left;
+    width: 57px;
+    height: 57px;
+    background: url(../images/yinyue_duo.png) no-repeat 0 0 ;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.music>.two{
+    background-image: url(../images/yinyue_lai.png)
+}
+.music>.three{
+    background-image: url(../images/yinyue_mi.png)
+}
+.music>.four{
+    background-image: url(../images/yinyue_fa.png)
+}
+.music>.five{
+    background-image: url(../images/yinyue_suo.png)
+}
+.music>.six{
+    background-image: url(../images/yinyue_la.png)
+}
+.music>.seven{
+    background-image: url(../images/yinyue_xi.png)
+}
+.music>li:hover{
+    background-position: 0 -57px;
+}
+.footer .top{
+    height: 260px;
+    border-bottom: 1px dashed white
+}
+.footer p{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}

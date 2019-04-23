@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content="关键词">
+    <meta name="description" content="网站描述">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/base.css"> -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- <script src="./js/jquery-1.12.4.min.js"></script> -->
+    <script src="./js/move.js"></script>
+    <script>
+        $(function () {
+            $('.first-list>li').hover(function () {
+                $(this).find('ol').stop().slideDown(600, 'elasticOut');
+            }, function () {
+                $(this).find('ol').stop().slideUp(600, 'elasticIn');
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <div class="container">
+            <a href="./index.html" class="logo fl">漫威</a>
+            <div class="nav fr">
+                <ul class="first-list">
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="#">复仇者联盟</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./aboutxx.html">钢铁侠</a><span></span></li>
+                            <li><a href="./aboutxx.html#1">美国队长</a><span></span></li>
+                            <li><a href="./aboutxx.html#2">绿巨人</a><span></span></li>
+                            <li><a href="./aboutxx.html#3">黑寡妇</a><span></span></li>
+                            <li><a href="./aboutxx.html#4">鹰眼</a><span></span></li>
+                            <li><a href="./aboutxx.html#4">返回主页</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./lie.html">蜘蛛侠</a></li>
+                    <li><a href="#">神奇四侠</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./neirong.html?type=talents">神奇先生</a><span></span></li>
+                            <li><a href="./neirong.html?type=team">隐形女</a><span></span></li>
+                            <li><a href="./neirong.html?type=joinUs">霹雳火</a><span></span></li>
+                            <li><a href="./neirong.html?type=joinUss">石头人</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">X-战警</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./neirong.html?type=companyIdea">金刚狼</a><span></span></li>
+                            <li><a href="./neirong.html?type=companyCulture">万磁王</a><span></span></li>
+                            <li><a href="./neirong.html?type=companyEnvironment">黑凤凰</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./neirong.html?type=telUs">超人</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

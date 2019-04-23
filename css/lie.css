@@ -1,0 +1,129 @@
+.middle{
+    background: #f1f2f6;
+}
+
+.middle>.box>.title {
+    text-align: center;
+    padding-top: 126px;
+}
+.title>h1 {
+    font: 50px/60px '楷体';
+    font-weight: bold;
+    color: #211135;
+
+}
+.title>p{
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #211135;
+}
+.title>section{
+    margin-top: 16px;
+}
+.biao{
+    position: relative;
+    background: url(../images/pen_line_long.png)no-repeat bottom left;
+}
+.biao .pen{
+    position: absolute;
+    display: block;
+    width: 61px;
+    height: 58px;
+    background: url(../images/pen.png) no-repeat ;
+    bottom: -5px;
+    right: -2px;;
+}
+.biao>h2{
+    font-size: 30px;
+    line-height: 50px;
+    color: #211135;
+    font-family: '楷体';
+}
+.pic{
+    width: 1230px;
+    padding-top: 36px;
+    overflow: hidden;
+}
+
+.pic .one{
+    display: block;
+    width: 538px;
+    height: 242px;
+    float: left;
+    background: white;
+    border: 1px solid white;
+    margin: 0 28px 28px 0;
+}
+.one:hover{
+	border-color:#86759e;
+	transform:translateY(-6px);
+	transition:all 0.3s ease 0s;
+}
+.pic .tic{
+    margin: 40px 20px 0 20px;
+}
+.pic .tic>img{
+   width: 260px;
+   height: 168px;
+}
+.pic .text{
+    padding-top: 36px;
+    width: 214px;
+}
+.text .small{
+	font-size:20px;
+	color:#454548;
+	line-height:26px;
+	max-height:53px;
+	overflow:hidden;
+	padding-top:15px;
+}
+.text .date{
+	color:#6b6a6f;
+	font-size:14px;
+	padding-top:2px;
+}
+.text p{
+	padding-top:8px;
+	color:#47464a;
+	line-height:25px;
+	max-height:75px;
+	overflow:hidden;
+}
+.one{
+    position: relative;
+}
+.one>.xjt{
+    position: absolute;
+    left: 0px;;
+    top: 40px;
+}
+.one:hover .xjt{
+	transition:all 0.3s ease 0s;
+	top:40px;
+	left:70px;
+}
+.more{
+    width: 107px;
+    height: 175px;
+    background: url(../images/list_gomore_bg.jpg) no-repeat;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.fu{
+    height: 58px;
+    width: 58px;
+    padding-bottom: 130px;
+    margin: 0 auto;
+}
+.morep{
+    height:58px;
+	width:58px;
+	background:url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+    margin:0 auto ;
+	cursor:pointer;
+}
+.morep:hover{
+    background-position:0 0;
+	transition:all 0.3s ease 0s;
+}

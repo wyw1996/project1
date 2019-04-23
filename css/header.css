@@ -1,0 +1,74 @@
+/*  */
+.header{
+    width: 100%;
+    height: 120px;
+    background: black  ;
+}
+.header .logo{
+    width: 376px;
+    height: 110px;
+    margin-top: 12px;
+    background: url(../images/logo.jpg) no-repeat;
+    text-indent: -9999em;
+}
+.header .nav{
+    font-size: 14px;
+    padding-top: 47.5px;
+}
+
+.first-list>li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.first-list>li>a{
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+}
+.first-list>li>span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images//nav_xiajiantou.png);
+    vertical-align: top;
+}
+.first-list>li:hover>span{
+    background-image: url(../images/nav_xiajiantou_hover.png) ;
+}
+/* second-list */
+.nav .second-list{
+    position: absolute;
+    width: 120%;
+    background: black;
+    left: -20px;
+    display: none;
+    z-index: 10;
+}
+.second-list>li{
+    position: relative;
+}
+.second-list>li>a{
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -20px;
+
+}
+.second-list>li>span{
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    background: url(../images/nav_li_bg.png) no-repeat;
+    right: 10px;
+    top: 16px;
+    display: none;
+}
+.second-list>li:hover a{
+    background: #039de9;
+    margin:0;
+}
+.second-list>li:hover span{
+    display: block;
+}

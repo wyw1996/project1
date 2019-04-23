@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/neirong.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/move.js"></script>
+    <script src="./js/lie.js"></script>
+</head>
+<script>
+    $(function () {
+        //点击+1
+        var n = 1;
+        $('.logo').on('click', function () {
+            n++;
+            $('.heng').text('喜欢♡' + n);
+
+        })
+        $('.logo').mouseover(function () {
+            $('.dog').stop().slideDown()
+        })
+        $('.logo').mouseout(function () {
+            $('.dog').stop().slideUp()
+        })
+        //页面加载 根据页面地址数据加载指定内容
+
+        var sendData = /type=([a-zA-Z0-9]*)/.exec(window.location.search.slice(1))[1];
+
+        $.ajax({
+            type: 'get',
+            url: './js/article.php',
+            data: { type: sendData },
+            success: function (data) {
+                var data = data.data;
+                $('.newcontainer .head>h1').html(data.typeTitle);
+                $('.newcontainer .head>h5').html(data.typeEntitle);
+                $('.newcontainer .content>h2').html(data.title);
+                $('.newcontainer .content>.timer').html(data.creatAt);
+                $('.newcontainer .content>.user').html(data.creatByFullName);
+                $('.content-one>img').attr('src', data.coverImg)
+            }
+        })
+
+    })
+</script>
+
+<body>
+    <div class="head" id="header"></div>
+    <div class="main">
+        <div class="newcontainer">
+            <div class="box">
+                <div class="head">
+                    <h1>卓新动态</h1>
+                    <h5>About Company</h5>
+                    <img src="./images/three_points01.png">
+                </div>
+                <div class="content">
+                    <h2>卓新思创重装出发</h2>
+                    <span class="timer">2016-1-11</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="user">管理员</span>
+                </div>
+                <div class="content-one">
+                    <img src="./images/article_image01.jpg">
+                    <h4>1.蜘蛛侠</h4>
+                    <p>迅速崛起的漫威收到了不少读者来信。许多是十几岁的少年，也有大学生。据此，斯坦·李认为塑造一个年轻的英雄将会受到读者欢迎。在此之前，少年们通常是作为大英雄的助手出现的；这一次，斯坦·李要创造一个独立的、全新的年轻角色。他和画家斯蒂夫·迪特科共同创造出了一个平凡的学生形象，他的名字叫彼得·帕克（Peter Parker）——他就是蜘蛛侠。</p>
+                    <h4>2.神奇先生</h4>
+                    <p>里德的身体可以变成他能想象到的任何形状，所以被命名为 神奇先生（Mr. Fantastic）</p>
+                    <h4>3.霹雳火</h4>
+                    <p>苏的弟弟强尼·斯托姆获得了控制火的能力，能够用火包裹住身体并发动攻击，所以被叫做 霹雳火（Human Torch）</p>
+                    <h4>4.隐形女</h4>
+                    <p>他的女朋友苏·斯托姆获得了隐身的能力，同时能控制和发动强大的力场，因此被叫做隐形女（Invisible Girl）</p>
+                    <h4>5.石头人</h4>
+                    <p>本·格瑞姆周身肌肉都膨胀成橘红色的岩石，力大无穷，他的新名字就叫做石头人（The Thing）</p>
+                    <h4>6.金刚狼</h4>
+                    <p>金刚狼（Wolverine）是美国漫威漫画旗下超级英雄，初次登场于《不可思议的浩克》（The Incredible Hulk）第180期（1974年10月）。由莱恩·韦恩、约翰·罗密塔、贺伯特·林普联合创造。</p>
+                    <h4>7.万磁王</h4>
+                    <p>万磁王（Magneto）是美国漫威漫画旗下超级反派，初次登场于《X战警》第1期（1963年9月），是X战警的头号死敌。本名马克思·艾森哈特（Max Eisenhardt），曾化名埃里克·兰谢尔（Erik Lensherr），是一名变种人，可以控制地球磁场、并且利用磁场让自己飞起来，与X教授是多年好友，因人类原因与X教授分道扬镳，创建了变种人兄弟会。</p>
+                    <h4>8.黑凤凰</h4>
+                    <p>“黑凤凰”琴·葛蕾被一股神秘的宇宙力量击中后，这股力量令她变得无比强大的同时也极不稳定。</p>
+                    <h4>9.超人</h4>
+                    <p>超人（Superman）是美国DC漫画旗下超级英雄，初次登场于《动作漫画》（Action Comics）创刊号（1938年6月），是漫画史上第一位超级英雄。本名卡尔-艾尔（Kal-El），出生于氪星（Krypton）。在氪星面临毁灭之际，他的父母为其找到了浩瀚宇宙中的新家园——地球，用飞船送走了尚在襁褓中的爱子。飞船坠落在美国堪萨斯州的斯莫维尔（Smallville），卡尔被农场主肯特夫妇拾获，并以克拉克·肯特（Clark Kent）的地球名字抚养成人。</p>
+                </div>
+                <div class="btn">
+                    <div class="heizi clearfix">
+                        <div class="logo fl"></div>
+                        <div class="heng fl">喜欢♡1</div>
+                    </div>
+                </div>
+                <div class="dog">基本凑合吧</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer" id="footer"></div>
+    <div class="goTop" id="rock"></div>
+</body>
+
+</html>
